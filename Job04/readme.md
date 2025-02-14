@@ -28,3 +28,6 @@ Créer ton image:
  ``` docker
  docker run -d -p 8080:80 --name mon-container-apache mon-apache-php
  ```
+
+ Maintenant tape localhost:8080 pour obtenir ceci:
+ ![Php](images/php.png)
