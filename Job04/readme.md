@@ -31,3 +31,10 @@ Créer ton image:
 
  Maintenant tape localhost:8080 pour obtenir ceci:
  ![Php](images/php.png)
+
+ Arreter le conteneur
+ ``` docker
+ docker stop mon-container-apache
+ ```
+
+
