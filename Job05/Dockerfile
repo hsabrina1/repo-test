@@ -1,9 +1,7 @@
-FROM php:7.4-apache
+FROM nginx:alpine
 
-COPY index.php /var/www/html/
-COPY result.json /var/www/html/
-COPY save.php /var/www/html/
+COPY index.html /usr/share/nginx/html/
+COPY results.json /usr/share/nginx/html/
+COPY save.php /usr/share/nginx/html/
 
 EXPOSE 8080
-
-CMD ["apache2-foreground"]
