@@ -10,5 +10,6 @@ docker run -d -p 8080:80 -v game-results:/usr/share/nginx/html --name tictactoe-
 
 
 ![Tictactoe](images/tictactoe.png)
-
+![joueurX](images/joueurX.png)
 ![ResulttX](images/resultatX.png)
+![joueurO](images/joueurO.png)
