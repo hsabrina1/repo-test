@@ -1,12 +1,14 @@
 ``` docker
-docker build -t tictactoe .
+docker volume create game-results
 ```
 ``` docker
-docker run -d -p 8080:80 --name tictactoe tictactoe
+docker build -t tic-tac-toe .
+```
+``` docker
+docker run -d -p 8080:80 -v game-results:/usr/share/nginx/html --name tictactoe-game tic-tac-toe
 ```
 
-``` docker 
-docker ps
-```
 
 ![Tictactoe](images/tictactoe.png)
+
+![ResulttX](images/resultatX.png)
